@@ -1,0 +1,95 @@
+body {
+    background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+    font-family: "Bangers", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.5;
+    color: #232931;
+    text-align: center;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+form {
+    padding: 30px;
+    background-color: #fbfae1 ;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    margin-bottom: 30px;
+}
+
+.instructions {
+    padding: 16px;
+    border: 1px solid rgba(113, 113, 115, 0.5);
+    width: 88%;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 20px;
+    color: black;
+}
+
+.submit-button {
+    margin-left: 10px;
+    background: #04dead;
+    color: white;
+    border: none;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 14px 24px;
+    transition: all 150ms ease-in-out;
+}
+
+.submit-button:hover {
+    background: #0e9577;
+}
+
+.ideas {
+    font-size: 16px;
+    background-color: #fbfae1;
+    padding: 20px;
+    line-height: 24px;
+    border-left: 3px solid #04dead;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+a {
+    color: #04dead;
+}
+
+/*.first-color {
+    background: #0e9577;
+}
+
+.second-color {
+    background: #04dead;
+}
+
+.third-color {
+    background: #f1efb9;
+}
+
+.fourth-color {
+    background: #fbfae1;
+}*/
