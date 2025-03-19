@@ -1,5 +1,5 @@
 function displayIdea(response) {
-    console.log("Ideas generated");
+    
      new Typewriter('#ideas', {
         strings: response.data.answer,
         autoStart: true,
@@ -21,9 +21,7 @@ function GenerateOneshot(event) {
     ideasElement.classList.remove("hidden");
     ideasElement.innerHTML = `<div class="generating">⏳ Generating ideas about ${instructionsInput.value}...</div>`;
 
-    console.log("Generating ideas...");
-    console.log(`Prompt:${prompt}`);
-    console.log(`Context:${context}`);
+    
 
     axios.get(apiUrl).then(displayIdea);
 
